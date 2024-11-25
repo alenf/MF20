@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "shell20"
+		},
+		{
+			"path": "designsystem20"
+		},
+		{
+			"path": "artifacts20"
+		}
+	],
+	"settings": {
+		"typescript.tsdk": "shell20\\node_modules\\typescript\\lib"
+	}
+}

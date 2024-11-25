@@ -1,0 +1,33 @@
+{
+  "name": "designsystem-20",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rsbuild build",
+    "dev": "rsbuild dev",
+    "lint": "eslint .",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "@module-federation/enhanced": "^0.7.6",
+    "pinia": "^2.2.6",
+    "primevue": "^4.2.3",
+    "tailwindcss-primeui": "^0.3.4",
+    "vue": "^3.5.12",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.12.0",
+    "@module-federation/rsbuild-plugin": "^0.7.6",
+    "@rsbuild/core": "^1.0.19",
+    "@rsbuild/plugin-vue": "^1.0.3",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.12.0",
+    "globals": "^15.11.0",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "typescript": "5.6",
+    "typescript-eslint": "^8.8.1",
+    "vue-tsc": "^2.1.10"
+  }
+}
